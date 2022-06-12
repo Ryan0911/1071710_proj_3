@@ -1,0 +1,4 @@
+add F2, F4, F1
+div F1, F2, F3
+sub F4, F1, F2
+add F1, F2, F3

@@ -23,5 +23,11 @@
     <Text Include="input.txt">
       <Filter>資源檔</Filter>
     </Text>
+    <Text Include="input2.txt">
+      <Filter>資源檔</Filter>
+    </Text>
+    <Text Include="input3.txt">
+      <Filter>資源檔</Filter>
+    </Text>
   </ItemGroup>
 </Project>

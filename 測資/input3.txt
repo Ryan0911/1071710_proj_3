@@ -1,0 +1,6 @@
+addi F6, F6, 134
+addi F2, F2, 240
+mul F0, F2, F4
+sub F8, F2, F6
+div F10, F0, F6
+add F6, F8, F2
