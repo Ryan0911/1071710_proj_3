@@ -1,5 +1,5 @@
-﻿  tomasulo.cpp
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_3\1071710_proj_3\1071710_proj_3_tomasulo\1071710_proj_3_tomasulo\tomasulo.cpp(164): warning C4715: 'which_type': 不是所有控制路徑都傳回值
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_3\1071710_proj_3\1071710_proj_3_tomasulo\1071710_proj_3_tomasulo\tomasulo.cpp(174): warning C4715: 'get_operation': 不是所有控制路徑都傳回值
-c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_3\1071710_proj_3\1071710_proj_3_tomasulo\1071710_proj_3_tomasulo\tomasulo.cpp(419): warning C4715: 'operation_result': 不是所有控制路徑都傳回值
+﻿  1071710_proj_3_Tomasulo.cpp
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_3\1071710_proj_3\1071710_proj_3_tomasulo\1071710_proj_3_tomasulo\1071710_proj_3_tomasulo.cpp(164): warning C4715: 'which_type': 不是所有控制路徑都傳回值
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_3\1071710_proj_3\1071710_proj_3_tomasulo\1071710_proj_3_tomasulo\1071710_proj_3_tomasulo.cpp(174): warning C4715: 'get_operation': 不是所有控制路徑都傳回值
+c:\users\user\desktop\110課程\1102\組合語言與計算機組織\1071710_proj_3\1071710_proj_3\1071710_proj_3_tomasulo\1071710_proj_3_tomasulo\1071710_proj_3_tomasulo.cpp(419): warning C4715: 'operation_result': 不是所有控制路徑都傳回值
   1071710_proj_3_Tomasulo.vcxproj -> C:\Users\User\Desktop\110課程\1102\組合語言與計算機組織\1071710_proj_3\1071710_proj_3\1071710_proj_3_Tomasulo\Debug\1071710_proj_3_Tomasulo.exe
