@@ -1,4 +1,4 @@
-# 1071710_proj_3
+# 1071710_proj_3 (參考課程L13，第3 - 11的課程影片)
 ---
 ## 此次project包含內容如下 
 - [x] 程式碼 - 1071710_proj_3_Tomasulo.cpp 
@@ -89,7 +89,6 @@ bool issue() {
 3. update RAT
 **兩個add/mul分開區塊處理**
 **若RS皆滿了就不會做動作!!**
----
 ### Capture  
 ```
 void capture() {
@@ -134,8 +133,7 @@ void capture() {
 	}
 }
 ```
-**最核心的概念就是去看ALU裡面有沒有東西，若有的話且Cycle為0，就會去每個RS裡找對應的RS tag並將運算結果填上!!**
----
+**最核心的概念就是去看ALU裡面有沒有東西，若有的話且Cycle為0，就會去每個RS裡找對應的RS tag並將運算結果填上**
 ### Execute  
 ```
 void execute() {
@@ -186,9 +184,8 @@ void execute() {
 	}
 }
 ```
-**以Random的方式做dispatch，只要滿足條件(意即RS tag都填上，都是數字，已經準備好可以開始運算)，就可以丟到"空"以及對應正確型態的ALU進行運算**
-**需要設定ALU的cycle、運算結果、RS tag、empty設定為0代表ALU不可進入**
----
+**以Random的方式做dispatch，只要滿足條件(意即RS tag都填上，都是數字，已經準備好可以開始運算)，就可以丟到"空"以及對應正確型態的ALU進行運算
+需要設定ALU的cycle、運算結果、RS tag、empty設定為0代表ALU不可進入**
 ### Write Result  
 ```
 void write_result() {
