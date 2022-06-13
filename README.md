@@ -84,9 +84,9 @@ bool issue() {
 	}
 ```
 **如註解所示!**
-1. 本身是數字就直接丟進去(addi的狀況)
-2. check RAT, if RAT is empty, go to register else put RAT
-3. update RAT
+1. 本身是數字就直接丟進去(addi的狀況)  
+2. check RAT, if RAT is empty, go to register else put RAT  
+3. update RAT  
 **兩個add/mul分開區塊處理**
 **若RS皆滿了就不會做動作!!**
 ### Capture  
