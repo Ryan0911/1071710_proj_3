@@ -69,7 +69,7 @@ int main() {
 		cin >> mul_cycle;
 		cout << "請設定DIV之ALU cycle數: " << endl;
 		cin >> div_cycle;
-		while (!(initial_queue.empty() && rs_empty_check(RS, total_rs_num))) {
+		while (!(initial_queue.empty() && rs_empty_check(RS, total_rs_num)&&add_ALU.is_empty&&mul_ALU.is_empty)) {
 			cycle += 1;
 			cout << "##################Cycle: " << cycle << "##################" << endl;
 			if (!initial_queue.empty())
