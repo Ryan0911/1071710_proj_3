@@ -361,7 +361,6 @@ void write_result() {
 	//穝RAT(睲睦)
 	//穝RS(RS睦)
 	//睲buffer
-
 	if (!add_ALU.is_empty) {
 		if (add_ALU.cycle == 0) { //buffer is ready!!
 			for (int i = 0; i < 32; i++) {
@@ -420,21 +419,21 @@ float operation_result(string operation, string rs1, string rs2) {
 
 void print_cycle() {
 	cout << "________________________________________________" << endl;
-	cout << "Registers status: " << endl<<endl; //Register篈常ㄓ°ㄑㄏノ把σ
+	cout << "Registers status: " << endl<<endl; 
 	for (int i = 0; i < 32; i++) {
 		cout << "R" << i << ": " << Register[i] << "\t\t";
 		if (i % 2 != 0)
 			cout << endl;
 	}
 	cout << "________________________________________________" << endl;
-	cout << "RAT status: " << endl<<endl; //Register篈常ㄓ°ㄑㄏノ把σ
+	cout << "RAT status: " << endl<<endl; 
 	for (int i = 0; i < 32; i++) {
 		cout << "RAT" << i << ": " << setw(3) << RAT[i] << setw(3);
 		if (i % 2 != 0)
 			cout << endl;
 	}
 	cout << "________________________________________________" << endl;
-	cout << "(ADD) RS status: " << endl<<endl; //Register篈常ㄓ°ㄑㄏノ把σ
+	cout << "(ADD) RS status: " << endl<<endl; 
 	for (int i = 0; i < add_sub_rs_num; i++) {
 		cout << "RS" << i << ": " << setw(3) << RS[i][0] << "|" << setw(3) << RS[i][1] << "|" << setw(3) << RS[i][2] << "\t\t";
 		if (i % 2 != 0)
@@ -449,7 +448,7 @@ void print_cycle() {
 	else
 		cout << "(RS" << add_ALU.RS << ")" << RS[add_ALU.RS][1] << get_operation(RS[add_ALU.RS][0]) << RS[add_ALU.RS][2] << endl;
 	cout << "________________________________________________" << endl;
-	cout << "(MUL) RS status: "<<endl << endl; //Register篈常ㄓ°ㄑㄏノ把σ
+	cout << "(MUL) RS status: "<<endl << endl; 
 	for (int i = add_sub_rs_num; i < mul_div_rs_num; i++) {
 		cout << "RS" << i << ": " <<setw(3)<< RS[i][0] << "|"<<setw(3) << RS[i][1] << "|"<<setw(3) << RS[i][2];
 		if (i % 2 != 0)
