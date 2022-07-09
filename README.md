@@ -34,10 +34,10 @@ string RAT[32] = {};
 queue<vector<string>> initial_queue;
 ```
 **以queue存放instruction，issue時就很好做，並直接命名為initial_queue**  
-'''
+```
 ALU add_ALU;
 ALU mul_ALU;
-'''
+```
 **本程式支援的如同課程上給的Example，有可供add/sub和mul/div運算的兩個ALU**
 ## 核心Function說明(Issue、Capture、Execute、Write Result)
 ---
