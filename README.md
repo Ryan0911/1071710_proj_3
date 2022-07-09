@@ -4,7 +4,7 @@
 - [x] 程式碼 - 1071710_proj_3_Tomasulo.cpp 
 - [x] 輸入輸出範例數組 - Input: input.txt, input2.txt, input3.txt || 輸出範例：1071710_proj_3輸入輸出範例.docx
 - [x] 說明文件 - README.md
-- [ ] 1071710_proj_3_DEMO影片網址
+- [x] 1071710_proj_3_DEMO影片網址
 ---
 ## 程式流程說明
 1. 輸入測資檔名，若該檔不存在將會要求使用者重新輸入，若是輸入0則離開程式
@@ -33,7 +33,7 @@ string RAT[32] = {};
 ```
 queue<vector<string>> initial_queue;
 ```
-**以queue存放instruction，issue時就很好做，並直接命名為initial_queue**
+**以queue存放instruction，issue時就很好做，並直接命名為initial_queue**  
 '''
 ALU add_ALU;
 ALU mul_ALU;
